@@ -1,1 +1,12 @@
 {% extends 'base.html' %}
+{% block content %}
+{% load static %}
+
+
+    <div class="flex-container">
+        <img src="{% static 'images/basebanner.png' %}" alt="Sample Image">
+    </div>
+    <div class="about-head">
+    <h1>About HMS</h1>
+</div>
+{% endblock %}

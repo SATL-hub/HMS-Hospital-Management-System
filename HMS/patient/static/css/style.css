@@ -1,0 +1,21 @@
+.flex-container {
+    display: flex;
+    justify-content: center; /* Center image horizontally */
+    align-items: center;    /* Center image vertically */
+    height: 80vh;          /* Full viewport height */
+    background-color: #f0f0f0;
+}
+
+.flex-container img {
+    height: 590px;    /* Maintains aspect ratio */
+    width:1700px
+}
+h1{
+    color: rgb(93, 190, 190);
+}
+.about-head{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
