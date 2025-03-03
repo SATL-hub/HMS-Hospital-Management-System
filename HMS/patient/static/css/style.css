@@ -1,15 +1,18 @@
 .flex-container {
-    display: flex;
-    justify-content: center; /* Center image horizontally */
-    align-items: center;    /* Center image vertically */
-    height: 80vh;          /* Full viewport height */
-    background-color: #f0f0f0;
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .flex-container img {
-    height: 590px;    /* Maintains aspect ratio */
-    width:1700px
+  width: 100%;  /* Ensures it resizes based on the container */
+  height: auto; /* Maintains aspect ratio */
+  max-height: 800px; /* Limits maximum height */
+  object-fit: cover; /* Crops excess part while maintaining aspect ratio */
 }
+
 h1{
     color: rgb(93, 190, 190);
 }

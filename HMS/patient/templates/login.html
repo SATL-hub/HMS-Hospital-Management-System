@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+
+<div style="margin-top: 120px;">
+<h1 style="text-align: center;">Login Here!!...</h1>
+<form action="#" method="post">
+<table  style="margin-left: 600px; background-color: antiquewhite;border-radius: 5%;">
+    <tr>
+        <td style="padding-left: 20px;padding-top: 20px;padding-right: 20px;">Email Id</td>
+        <td style="padding-left: 20px;padding-top: 20px;padding-right: 20px;"><input type="email" required="" name="email" style="width: 300px;"></td>
+    </tr>
+    <tr>
+        <td style="padding-left: 20px;padding-top: 20px;padding-right: 20px;">Password</td>
+        <td style="padding-left: 20px;padding-top: 20px;padding-right: 20px;"><input type="password" required="" name="password" style="width: 300px;"></td>
+    </tr>
+    <tr>
+        <td></td>
+       <td style="padding-left: 60px;padding-top: 20px;padding-right: 20px;" > <input type="submit" value="Login" style="width: 120px; color: blue;border-radius: 10px;"></td>
+    </tr>
+</table>
+</form>
+</div>
+{% endblock %}
